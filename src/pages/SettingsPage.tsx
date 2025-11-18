@@ -1,11 +1,11 @@
 import MainLayout from "../components/layouts/MainLayout";
 
-const ServicesPage = () => {
+const SettingsPage = () => {
   return (
     <MainLayout>
-      <h1>Services Page</h1>
+      <h1>Settings Page</h1>
     </MainLayout>
   );
 };
 
-export default ServicesPage;
+export default SettingsPage;

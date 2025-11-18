@@ -1,8 +1,10 @@
+import MainLayout from "../components/layouts/MainLayout";
+
 const ContactsPage = () => {
   return (
-    <div>
+    <MainLayout>
       <h1>Contacts Page</h1>
-    </div>
+    </MainLayout>
   );
 };
 

@@ -4,6 +4,7 @@ import NotFoundPage from "../pages/NotFoundPage";
 import HomePage from "../pages/HomePage";
 import ServicesPage from "../pages/ServicesPage";
 import ContactsPage from "../pages/ContactsPage";
+import SettingsPage from "../pages/SettingsPage";
 
 export const routes: RouteObject[] = [
   {
@@ -13,6 +14,7 @@ export const routes: RouteObject[] = [
       { path: '/', Component: HomePage },
       { path: '/services', Component: ServicesPage },
       { path: '/contacts', Component: ContactsPage },
+      { path: '/settings', Component: SettingsPage },
       { path: "*", Component: NotFoundPage },
     ],
   },
