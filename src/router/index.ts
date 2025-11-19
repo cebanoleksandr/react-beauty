@@ -5,6 +5,8 @@ import HomePage from "../pages/HomePage";
 import ServicesPage from "../pages/ServicesPage";
 import ContactsPage from "../pages/ContactsPage";
 import SettingsPage from "../pages/SettingsPage";
+import LoginPage from "../pages/LoginPage";
+import RegisterPage from "../pages/RegisterPage";
 
 export const routes: RouteObject[] = [
   {
@@ -15,6 +17,8 @@ export const routes: RouteObject[] = [
       { path: '/services', Component: ServicesPage },
       { path: '/contacts', Component: ContactsPage },
       { path: '/settings', Component: SettingsPage },
+      { path: '/login', Component: LoginPage },
+      { path: '/register', Component: RegisterPage },
       { path: "*", Component: NotFoundPage },
     ],
   },
