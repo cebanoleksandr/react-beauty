@@ -41,4 +41,20 @@ export type UpdateAppointmentDTO = {
   notes?: string;
 }
 
+export type CreateMasterScheduleDTO = {
+  dayOfWeek: number;
+  masterId: string;
+  startTime: string;
+  endTime: string;
+  isAvailable: boolean;
+}
+
+export type UpdateMasterScheduleDTO = {
+  dayOfWeek?: number;
+  masterId?: string;
+  startTime?: string;
+  endTime?: string;
+  isAvailable?: boolean;
+}
+
 export type Status = 'BOOKED' | 'CONFIRMED' | 'COMPLETED' | 'CANCELED';
